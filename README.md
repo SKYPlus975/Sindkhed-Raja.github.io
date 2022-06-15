@@ -1,1 +1,0 @@
-# Sindkhed-Raja.github.io
