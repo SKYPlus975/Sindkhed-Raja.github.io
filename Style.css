@@ -1,0 +1,123 @@
+   *
+  {
+box-sizing: border-box;
+  }
+
+.header {
+  padding: 25px;
+  text-align: center;
+  background: green;
+  color: pink;
+}
+.input-group-text
+{
+  width: 100px;
+  background-image: linear-gradient(#00ff7e,#1f3d90);
+  border: 4px solid #fff !important;
+  color: #fff !important;
+  padding: 8px 0!important;
+  border-radius: 50px !important;
+  box-shadow: none !important;
+  float: right;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.footer {
+  text-align: center;
+  color: purple;
+}
+.navbar a:hover {
+  background-color: #ddd;
+    color: black;
+    }
+
+.footer2 {
+  text-align: left;
+  color: red;
+}
+.footer3{
+  text-align: center;
+  color: brown;
+}
+.footer4{
+  text-align: center;
+}
+.footer5{
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.footer5 h1{
+  color: brown;
+}
+.footer5 h2{
+  text-align: center;
+  color: red;
+}
+.footer5 li{
+  text-align: left;
+}
+.footer5 img{
+  width: 100px;
+}
+
+.header img
+{ 
+  width: 170px;
+  float: left;
+  padding-right: 20px;
+}
+
+.xnamefname {
+  background-color: #aaa;
+    width: 100%;
+      padding: 20px;
+      }
+      
+  #button1{
+    padding: 15px;
+    padding-inline: 20px;
+    background-color: black;
+    color: white;
+    font-size: 100%px;
+    border-radius: 10px;
+  }
+  #button2{
+    padding: 15px;
+    padding-inline: 20px;
+    background-color: black;
+    color: white;
+    font-size: 100%px;
+    border-radius: 10px;
+  }
+  
+      
+      @media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+        width: 100%;
+  }
+} 
